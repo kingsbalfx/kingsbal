@@ -1,0 +1,10 @@
+# Node
+node_modules/
+.next/
+.env.local
+.env.*.local
+.DS_Store
+dist/
+build/
+# Data - if you want to persist DB in production use external DB
+data/*.json

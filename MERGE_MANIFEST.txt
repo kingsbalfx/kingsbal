@@ -1,0 +1,57 @@
+Merge manifest
+=================
+
+Source top-level folders found:
+ - king_s_balin_core_updates
+ - king_s_balin_migration
+ - king_s_balin_patch_files
+ - pages
+
+Operations performed:
+Copied: king_s_balin_core_updates/package.json -> package.json
+Copied: king_s_balin_core_updates/vercel.json -> vercel.json
+Copied: king_s_balin_core_updates/.gitignore -> .gitignore
+Copied: king_s_balin_core_updates/UPGRADE_NOTES.md -> UPGRADE_NOTES.md
+Copied: king_s_balin_core_updates/README.md -> README.md
+Copied: king_s_balin_core_updates/scripts/check-env.js -> scripts/check-env.js
+Copied: king_s_balin_core_updates/lib/storage.js -> lib/storage.js
+Copied: king_s_balin_core_updates/migrations/supabase_init.sql -> migrations/supabase_init.sql
+Copied: king_s_balin_core_updates/pages/admin-supabase.js -> pages/admin-supabase.js
+Copied: king_s_balin_core_updates/pages/api/vip-users.js -> pages/api/vip-users.js
+Copied: king_s_balin_core_updates/pages/api/subscribe.js -> pages/api/subscribe.js
+Copied: king_s_balin_core_updates/pages/api/paystack-verify.js -> pages/api/paystack-verify.js
+Copied: king_s_balin_core_updates/pages/api/admin-mode.js -> pages/api/admin-mode.js
+Copied: king_s_balin_core_updates/pages/api/newsletter.js -> pages/api/newsletter.js
+Copied: king_s_balin_core_updates/pages/api/admin-command.js -> pages/api/admin-command.js
+Copied: king_s_balin_core_updates/pages/api/pay.js -> pages/api/pay.js
+Copied: king_s_balin_core_updates/pages/api/paystack-webhook.js -> pages/api/paystack-webhook.js
+Copied: king_s_balin_core_updates/pages/api/pay-initiate.js -> pages/api/pay-initiate.js
+Copied: king_s_balin_core_updates/pages/api/admin/supabase-status.js -> pages/api/admin/supabase-status.js
+Copied: king_s_balin_core_updates/pages/api/admin/supabase-test.js -> pages/api/admin/supabase-test.js
+Copied: king_s_balin_core_updates/pages/api/admin/run-migration.js -> pages/api/admin/run-migration.js
+Copied: king_s_balin_core_updates/.github/workflows/ci.yml -> .github/workflows/ci.yml
+Copied: king_s_balin_core_updates/.github/workflows/deploy.yml -> .github/workflows/deploy.yml
+Copied: king_s_balin_migration/supabase_init.sql -> supabase_init.sql
+Skipped identical file: king_s_balin_patch_files/lib/storage.js -> already exists at lib/storage.js
+Skipped identical file: king_s_balin_patch_files/pages/admin-supabase.js -> already exists at pages/admin-supabase.js
+Skipped identical file: king_s_balin_patch_files/pages/api/vip-users.js -> already exists at pages/api/vip-users.js
+Skipped identical file: king_s_balin_patch_files/pages/api/subscribe.js -> already exists at pages/api/subscribe.js
+Skipped identical file: king_s_balin_patch_files/pages/api/paystack-verify.js -> already exists at pages/api/paystack-verify.js
+Skipped identical file: king_s_balin_patch_files/pages/api/admin-mode.js -> already exists at pages/api/admin-mode.js
+Skipped identical file: king_s_balin_patch_files/pages/api/newsletter.js -> already exists at pages/api/newsletter.js
+Skipped identical file: king_s_balin_patch_files/pages/api/admin-command.js -> already exists at pages/api/admin-command.js
+Skipped identical file: king_s_balin_patch_files/pages/api/pay.js -> already exists at pages/api/pay.js
+Skipped identical file: king_s_balin_patch_files/pages/api/paystack-webhook.js -> already exists at pages/api/paystack-webhook.js
+Skipped identical file: king_s_balin_patch_files/pages/api/pay-initiate.js -> already exists at pages/api/pay-initiate.js
+Skipped identical file: king_s_balin_patch_files/pages/api/admin/supabase-status.js -> already exists at pages/api/admin/supabase-status.js
+Skipped identical file: king_s_balin_patch_files/pages/api/admin/supabase-test.js -> already exists at pages/api/admin/supabase-test.js
+Skipped identical file: king_s_balin_patch_files/pages/api/admin/run-migration.js -> already exists at pages/api/admin/run-migration.js
+Copied: pages/login.js -> login.js
+Copied: pages/vip/index.js -> vip/index.js
+Copied: pages/vip/music.js -> vip/music.js
+Copied: pages/vip/videos.js -> vip/videos.js
+Copied: pages/vip/articles.js -> vip/articles.js
+
+Summary:
+Total top-level folders: 4
+Total conflicts: 0
